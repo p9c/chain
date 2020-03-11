@@ -5,7 +5,7 @@ import (
 
 	log "github.com/p9c/logi"
 
-	chainhash "github.com/p9c/chainhash"
+	"github.com/p9c/chainhash"
 )
 
 // ThresholdState define the various threshold states used when voting on consensus changes.

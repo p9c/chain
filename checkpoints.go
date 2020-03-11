@@ -6,10 +6,11 @@ import (
 
 	log "github.com/p9c/logi"
 
-	chaincfg "github.com/p9c/chaincfg"
-	chainhash "github.com/p9c/chainhash"
-	txscript "github.com/p9c/chain/tx/script"
+	"github.com/p9c/chaincfg"
+	"github.com/p9c/chainhash"
 	"github.com/p9c/util"
+
+	txscript "github.com/p9c/chain/tx/script"
 )
 
 // CheckpointConfirmations is the number of blocks before the end of the

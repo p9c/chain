@@ -4,12 +4,13 @@ import (
 	"bytes"
 	"strings"
 
+	log "github.com/p9c/logi"
+	waddrmgr "github.com/p9c/wallet/addrmgr"
+	"github.com/p9c/wallet/chain"
+	walletdb "github.com/p9c/wallet/db"
+
 	wtxmgr "github.com/p9c/chain/tx/mgr"
 	txscript "github.com/p9c/chain/tx/script"
-	log "github.com/p9c/logi"
-	waddrmgr "github.com/p9c/pod/pkg/wallet/addrmgr"
-	"github.com/p9c/pod/pkg/wallet/chain"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
 )
 
 func (w *Wallet) handleChainNotifications() {

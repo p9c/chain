@@ -7,10 +7,11 @@ import (
 	"github.com/p9c/chaincfg/netparams"
 	log "github.com/p9c/logi"
 
-	chainhash "github.com/p9c/chainhash"
-	wtxmgr "github.com/p9c/chain/tx/mgr"
+	"github.com/p9c/chainhash"
+	walletdb "github.com/p9c/wallet/db"
 	"github.com/p9c/wire"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
+
+	wtxmgr "github.com/p9c/chain/tx/mgr"
 )
 
 var (

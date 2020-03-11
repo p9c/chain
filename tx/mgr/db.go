@@ -4,13 +4,14 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
-	log "github.com/p9c/logi"
 	"time"
 
-	chainhash "github.com/p9c/chainhash"
-	"github.com/p9c/wire"
+	log "github.com/p9c/logi"
+
+	"github.com/p9c/chainhash"
 	"github.com/p9c/util"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
+	walletdb "github.com/p9c/wallet/db"
+	"github.com/p9c/wire"
 )
 
 // Naming
@@ -1217,14 +1218,14 @@ func openStore(ns walletdb.ReadBucket) error {
 	// database upgrades, and each upgrade is done in its own transaction.
 	//
 	// No upgrades yet.
-	//if version < LatestVersion {
+	// if version < LatestVersion {
 	//	err := scopedUpdate(namespace, func(ns walletdb.Bucket) error {
 	//	})
 	//	if err != nil {
 	//	log.L.Error(err)
 	//		// Handle err
 	//	}
-	//}
+	// }
 	return nil
 }
 

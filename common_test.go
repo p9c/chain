@@ -12,14 +12,15 @@ import (
 	"time"
 
 	"github.com/p9c/chaincfg/netparams"
-	chainhash "github.com/p9c/chainhash"
-	txscript "github.com/p9c/chain/tx/script"
+	"github.com/p9c/chainhash"
 	"github.com/p9c/util"
+
+	txscript "github.com/p9c/chain/tx/script"
 
 	database "github.com/p9c/blockdb"
 	_ "github.com/p9c/blockdb/ffldb"
 
-	chaincfg "github.com/p9c/chaincfg"
+	"github.com/p9c/chaincfg"
 	"github.com/p9c/wire"
 )
 

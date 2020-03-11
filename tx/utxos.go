@@ -1,10 +1,11 @@
 package wallettx
 
 import (
-	txscript "github.com/p9c/chain/tx/script"
-	"github.com/p9c/wire"
 	log "github.com/p9c/logi"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
+	walletdb "github.com/p9c/wallet/db"
+	"github.com/p9c/wire"
+
+	txscript "github.com/p9c/chain/tx/script"
 )
 
 // OutputSelectionPolicy describes the rules for selecting an output from the

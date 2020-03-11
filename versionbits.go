@@ -5,7 +5,7 @@ import (
 
 	log "github.com/p9c/logi"
 
-	chaincfg "github.com/p9c/chaincfg"
+	"github.com/p9c/chaincfg"
 )
 
 const (

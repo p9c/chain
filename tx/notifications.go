@@ -4,13 +4,14 @@ import (
 	"bytes"
 	"sync"
 
-	chainhash "github.com/p9c/chainhash"
-	wtxmgr "github.com/p9c/chain/tx/mgr"
-	txscript "github.com/p9c/chain/tx/script"
+	"github.com/p9c/chainhash"
 	log "github.com/p9c/logi"
 	"github.com/p9c/util"
-	waddrmgr "github.com/p9c/pod/pkg/wallet/addrmgr"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
+	waddrmgr "github.com/p9c/wallet/addrmgr"
+	walletdb "github.com/p9c/wallet/db"
+
+	wtxmgr "github.com/p9c/chain/tx/mgr"
+	txscript "github.com/p9c/chain/tx/script"
 )
 
 // TODO: It would be good to send errors during notification creation to the rpc

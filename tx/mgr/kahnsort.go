@@ -2,7 +2,7 @@
 
 package wtxmgr
 
-import chainhash "github.com/p9c/chainhash"
+import "github.com/p9c/chainhash"
 
 type graphNode struct {
 	value    *TxRecord

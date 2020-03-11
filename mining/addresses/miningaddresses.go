@@ -2,13 +2,13 @@ package addresses
 
 import (
 	"os"
-	
+
+	log "github.com/p9c/logi"
 	"github.com/p9c/pod/app/save"
 	"github.com/p9c/pod/cmd/node/state"
-	log "github.com/p9c/logi"
 	"github.com/p9c/pod/pkg/pod"
-	"github.com/p9c/pod/pkg/wallet"
-	wm "github.com/p9c/pod/pkg/wallet/addrmgr"
+	"github.com/p9c/wallet"
+	wm "github.com/p9c/wallet/addrmgr"
 )
 
 func RefillMiningAddresses(w *wallet.Wallet, cfg *pod.Config, stateCfg *state.Config) {

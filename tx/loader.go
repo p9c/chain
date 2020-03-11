@@ -10,8 +10,8 @@ import (
 	"github.com/p9c/chaincfg/netparams"
 	log "github.com/p9c/logi"
 	"github.com/p9c/util/prompt"
-	waddrmgr "github.com/p9c/pod/pkg/wallet/addrmgr"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
+	waddrmgr "github.com/p9c/wallet/addrmgr"
+	walletdb "github.com/p9c/wallet/db"
 )
 
 // A bunch of constants

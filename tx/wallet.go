@@ -12,23 +12,24 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	blockchain "github.com/p9c/chain"
 	"github.com/p9c/chaincfg/netparams"
-	chainhash "github.com/p9c/chainhash"
+	"github.com/p9c/chainhash"
+	log "github.com/p9c/logi"
+	"github.com/p9c/rpc/btcjson"
+	rpcclient "github.com/p9c/rpc/client"
+	"github.com/p9c/util"
+	ec "github.com/p9c/util/elliptic"
+	"github.com/p9c/util/hdkeychain"
+	waddrmgr "github.com/p9c/wallet/addrmgr"
+	"github.com/p9c/wallet/chain"
+	walletdb "github.com/p9c/wallet/db"
+	"github.com/p9c/wire"
+
+	blockchain "github.com/p9c/chain"
 	txauthor "github.com/p9c/chain/tx/author"
 	wtxmgr "github.com/p9c/chain/tx/mgr"
 	txrules "github.com/p9c/chain/tx/rules"
 	txscript "github.com/p9c/chain/tx/script"
-	"github.com/p9c/wire"
-	log "github.com/p9c/logi"
-	"github.com/p9c/pod/pkg/rpc/btcjson"
-	rpcclient "github.com/p9c/pod/pkg/rpc/client"
-	"github.com/p9c/util"
-	ec "github.com/p9c/util/elliptic"
-	"github.com/p9c/util/hdkeychain"
-	waddrmgr "github.com/p9c/pod/pkg/wallet/addrmgr"
-	"github.com/p9c/pod/pkg/wallet/chain"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
 )
 
 const (

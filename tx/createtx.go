@@ -4,15 +4,16 @@ import (
 	"fmt"
 	"sort"
 
-	txauthor "github.com/p9c/chain/tx/author"
-	wtxmgr "github.com/p9c/chain/tx/mgr"
-	txscript "github.com/p9c/chain/tx/script"
-	"github.com/p9c/wire"
 	log "github.com/p9c/logi"
 	"github.com/p9c/util"
 	ec "github.com/p9c/util/elliptic"
-	waddrmgr "github.com/p9c/pod/pkg/wallet/addrmgr"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
+	waddrmgr "github.com/p9c/wallet/addrmgr"
+	walletdb "github.com/p9c/wallet/db"
+	"github.com/p9c/wire"
+
+	txauthor "github.com/p9c/chain/tx/author"
+	wtxmgr "github.com/p9c/chain/tx/mgr"
+	txscript "github.com/p9c/chain/tx/script"
 )
 
 // byAmount defines the methods needed to satisify sort.Interface to

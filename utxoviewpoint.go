@@ -7,10 +7,11 @@ import (
 
 	database "github.com/p9c/blockdb"
 
-	chainhash "github.com/p9c/chainhash"
-	txscript "github.com/p9c/chain/tx/script"
-	"github.com/p9c/wire"
+	"github.com/p9c/chainhash"
 	"github.com/p9c/util"
+	"github.com/p9c/wire"
+
+	txscript "github.com/p9c/chain/tx/script"
 )
 
 // txoFlags is a bitmask defining additional information and state for a

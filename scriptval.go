@@ -7,10 +7,11 @@ import (
 
 	log "github.com/p9c/logi"
 
+	"github.com/p9c/util"
+	"github.com/p9c/wire"
+
 	"github.com/p9c/chain/hardfork"
 	txscript "github.com/p9c/chain/tx/script"
-	"github.com/p9c/wire"
-	"github.com/p9c/util"
 )
 
 type // txValidateItem holds a transaction along with which input to validate.

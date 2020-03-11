@@ -5,9 +5,9 @@ import (
 
 	log "github.com/p9c/logi"
 
-	chainhash "github.com/p9c/chainhash"
+	"github.com/p9c/chainhash"
 	"github.com/p9c/util"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
+	walletdb "github.com/p9c/wallet/db"
 )
 
 // CreditRecord contains metadata regarding a transaction credit for a known

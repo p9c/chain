@@ -7,8 +7,8 @@ import (
 	database "github.com/p9c/blockdb"
 	log "github.com/p9c/logi"
 
+	"github.com/p9c/chainhash"
 	"github.com/p9c/fork"
-	chainhash "github.com/p9c/chainhash"
 	"github.com/p9c/util"
 )
 

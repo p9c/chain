@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	chaincfg "github.com/p9c/chaincfg"
-	chainhash "github.com/p9c/chainhash"
-	"github.com/p9c/wire"
+	"github.com/p9c/chaincfg"
+	"github.com/p9c/chainhash"
 	"github.com/p9c/util"
+	"github.com/p9c/wire"
 )
 
 // TestSequenceLocksActive tests the SequenceLockActive function to ensure it

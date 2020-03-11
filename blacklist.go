@@ -2,8 +2,9 @@ package blockchain
 
 import (
 	"github.com/p9c/fork"
-	txscript "github.com/p9c/chain/tx/script"
 	"github.com/p9c/util"
+
+	txscript "github.com/p9c/chain/tx/script"
 )
 
 // ContainsBlacklisted returns true if one of the given addresses

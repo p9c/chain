@@ -3,9 +3,9 @@ package wallettx
 import (
 	"time"
 
-	chainhash "github.com/p9c/chainhash"
-	"github.com/p9c/wire"
+	"github.com/p9c/chainhash"
 	"github.com/p9c/util"
+	"github.com/p9c/wire"
 )
 
 // Note: The following common types should never reference the Wallet type.
@@ -47,8 +47,8 @@ type TransactionOutput struct {
 	OutputKind OutputKind
 	// These should be added later when the DB can return them more
 	// efficiently:
-	//TxLockTime      uint32
-	//TxExpiry        uint32
+	// TxLockTime      uint32
+	// TxExpiry        uint32
 	ContainingBlock BlockIdentity
 	ReceiveTime     time.Time
 }

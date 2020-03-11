@@ -5,9 +5,10 @@ import (
 
 	log "github.com/p9c/logi"
 
-	txscript "github.com/p9c/chain/tx/script"
-	"github.com/p9c/wire"
 	"github.com/p9c/util"
+	"github.com/p9c/wire"
+
+	txscript "github.com/p9c/chain/tx/script"
 )
 
 const (

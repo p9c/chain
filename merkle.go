@@ -5,9 +5,10 @@ import (
 	"fmt"
 	"math"
 
-	chainhash "github.com/p9c/chainhash"
-	txscript "github.com/p9c/chain/tx/script"
+	"github.com/p9c/chainhash"
 	"github.com/p9c/util"
+
+	txscript "github.com/p9c/chain/tx/script"
 )
 
 const (

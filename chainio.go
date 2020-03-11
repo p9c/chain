@@ -11,9 +11,9 @@ import (
 	database "github.com/p9c/blockdb"
 	log "github.com/p9c/logi"
 
-	chainhash "github.com/p9c/chainhash"
-	"github.com/p9c/wire"
+	"github.com/p9c/chainhash"
 	"github.com/p9c/util"
+	"github.com/p9c/wire"
 )
 
 const (

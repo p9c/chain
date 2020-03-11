@@ -10,14 +10,15 @@ import (
 
 	log "github.com/p9c/logi"
 
-	chaincfg "github.com/p9c/chaincfg"
+	"github.com/p9c/chaincfg"
 	"github.com/p9c/chaincfg/netparams"
+	"github.com/p9c/chainhash"
 	"github.com/p9c/fork"
-	"github.com/p9c/chain/hardfork"
-	chainhash "github.com/p9c/chainhash"
-	txscript "github.com/p9c/chain/tx/script"
-	"github.com/p9c/wire"
 	"github.com/p9c/util"
+	"github.com/p9c/wire"
+
+	"github.com/p9c/chain/hardfork"
+	txscript "github.com/p9c/chain/tx/script"
 )
 
 const (

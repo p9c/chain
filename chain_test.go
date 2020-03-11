@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	chaincfg "github.com/p9c/chaincfg"
+	"github.com/p9c/chaincfg"
 	"github.com/p9c/chaincfg/netparams"
-	chainhash "github.com/p9c/chainhash"
-	"github.com/p9c/wire"
+	"github.com/p9c/chainhash"
 	"github.com/p9c/util"
+	"github.com/p9c/wire"
 )
 
 // // TestHaveBlock tests the HaveBlock API to ensure proper functionality.

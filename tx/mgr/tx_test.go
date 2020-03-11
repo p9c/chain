@@ -9,15 +9,16 @@ import (
 	"testing"
 	"time"
 
-	chaincfg "github.com/p9c/chaincfg"
+	"github.com/p9c/chaincfg"
 	"github.com/p9c/chaincfg/netparams"
-	chainhash "github.com/p9c/chainhash"
+	"github.com/p9c/chainhash"
+	"github.com/p9c/util"
+	walletdb "github.com/p9c/wallet/db"
+	_ "github.com/p9c/wallet/db/bdb"
+	"github.com/p9c/wire"
+
 	. "github.com/p9c/chain/tx/mgr"
 	wtxmgr "github.com/p9c/chain/tx/mgr"
-	"github.com/p9c/wire"
-	"github.com/p9c/util"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
-	_ "github.com/p9c/pod/pkg/wallet/db/bdb"
 )
 
 // Received transaction output for mainnet outpoint

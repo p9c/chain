@@ -4,13 +4,14 @@ import (
 	"bytes"
 	"time"
 
-	blockchain "github.com/p9c/chain"
 	"github.com/p9c/chaincfg/netparams"
-	chainhash "github.com/p9c/chainhash"
-	"github.com/p9c/wire"
+	"github.com/p9c/chainhash"
 	log "github.com/p9c/logi"
 	"github.com/p9c/util"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
+	walletdb "github.com/p9c/wallet/db"
+	"github.com/p9c/wire"
+
+	blockchain "github.com/p9c/chain"
 )
 
 type (

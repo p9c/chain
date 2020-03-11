@@ -9,11 +9,12 @@ import (
 	"testing"
 	"time"
 
-	chainhash "github.com/p9c/chainhash"
-	. "github.com/p9c/chain/tx/mgr"
-	"github.com/p9c/wire"
+	"github.com/p9c/chainhash"
 	"github.com/p9c/util"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
+	walletdb "github.com/p9c/wallet/db"
+	"github.com/p9c/wire"
+
+	. "github.com/p9c/chain/tx/mgr"
 )
 
 type queryState struct {

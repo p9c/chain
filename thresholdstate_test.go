@@ -3,7 +3,7 @@ package blockchain
 import (
 	"testing"
 
-	chainhash "github.com/p9c/chainhash"
+	"github.com/p9c/chainhash"
 )
 
 // TestThresholdStateStringer tests the stringized output for the ThresholdState type.

@@ -1,9 +1,10 @@
 package wallettx
 
 import (
-	chainhash "github.com/p9c/chainhash"
+	"github.com/p9c/chainhash"
+	walletdb "github.com/p9c/wallet/db"
+
 	wtxmgr "github.com/p9c/chain/tx/mgr"
-	walletdb "github.com/p9c/pod/pkg/wallet/db"
 )
 
 // UnstableAPI exports unstable API

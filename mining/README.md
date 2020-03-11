@@ -1,7 +1,6 @@
 # mining
 
-[![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/p9c/pod/mining)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/p9c/chain/mining)
 
 ## Overview
 
@@ -10,9 +9,5 @@ This package contains an implementation of block construction for mining purpose
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/p9c/pod/mining
+$ go get -u github.com/p9c/chain/mining
 ```
-
-## License
-
-Package mining is licensed under the [copyfree](http://copyfree.org) ISC License.
