@@ -13,6 +13,7 @@ require (
 	github.com/p9c/pod v0.2.18
 	github.com/p9c/rpc v0.0.1
 	github.com/p9c/util v0.0.1
+	github.com/p9c/wallet v0.0.1
 	github.com/p9c/wire v0.0.1
 	go.uber.org/atomic v1.6.0
 	golang.org/x/crypto v0.0.0-20200311171314-f7b00557c8c4
