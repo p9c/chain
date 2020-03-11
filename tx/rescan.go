@@ -2,9 +2,9 @@ package wallettx
 
 import (
 	log "github.com/p9c/logi"
-	"github.com/p9c/pod/pkg/wallet/chain"
 	"github.com/p9c/util"
 	waddrmgr "github.com/p9c/wallet/addrmgr"
+	"github.com/p9c/wallet/chain"
 	"github.com/p9c/wire"
 
 	wtxmgr "github.com/p9c/chain/tx/mgr"

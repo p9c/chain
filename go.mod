@@ -10,8 +10,8 @@ require (
 	github.com/p9c/chainhash v0.0.1
 	github.com/p9c/fork v0.0.1
 	github.com/p9c/logi v0.0.12
-	github.com/p9c/pod v0.2.18
-	github.com/p9c/rpc v0.0.1
+	github.com/p9c/pod v0.2.19
+	github.com/p9c/rpc v0.0.2
 	github.com/p9c/util v0.0.2
 	github.com/p9c/wallet v0.0.1
 	github.com/p9c/wire v0.0.1
