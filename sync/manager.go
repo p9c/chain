@@ -16,7 +16,7 @@ import (
 	"github.com/p9c/wire"
 	database "github.com/p9c/blockdb"
 	log "github.com/p9c/logi"
-	peerpkg "github.com/p9c/pod/pkg/peer"
+	peerpkg "github.com/p9c/peer"
 	"github.com/p9c/util"
 )
 
